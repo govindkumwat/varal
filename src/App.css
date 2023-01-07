@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 .App {
   text-align: center;
+}
+
+body{
+  margin: 0 8%;
 }
 
 .App-logo {
@@ -13,26 +19,200 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* Css for menu component */
+
+.menu_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 0 60px; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  font-family: 'Lexend Deca', sans-serif;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.menu_container .logo {
+  font-weight: 700;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu_container .menulist ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
+
+.menu_container .menulist ul li {
+  padding: 0 10px;
+  cursor: pointer;
+  color: #535151;
+  
+}
+
+.menu_container .menulist ul li:hover {
+  color: #000000;
+}
+
+.menu_container .menulist ul .active
+{
+  color: #000000;
+}
+
+.menu_container .menulist .nav_button {
+  background-color: #5b64ca;
+  padding: 10px;
+  color: #ffff;
+  border-radius: 5px;
+  margin: 0 0 0 40px;
+}
+
+/* Menu css End here */
+
+/* Search Bar CSS begins */
+
+.searchBar{
+  /* margin: 30px 0 0 0; */
+  font-family: 'Noto Sans', sans-serif;
+  background: url('/public/images/Ellipse\ 8.png') no-repeat ;
+  background-size: 15px;
+  height: 100px;
+  background-position: 30px;
+
+ 
+}
+
+.searchBar .vector2 {
+  background: url('/public/images/Ellipse\ 14.png') no-repeat 50%;
+  height: 40px;
+  background-size: 26px;
+
+}
+
+.searchBar input {
+  float: right;
+  /* margin: 0 60px; */
+  padding: 14px;
+  font-size: 20px;
+  border: #5b64ca 2px solid;
+  color: #5b64ca;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 600;
+  padding-left: 45px;
+  background-size: 40px;
+  background: url("data:image/svg+xml,%3Csvg stroke='currentColor' fill='%235b64ca' stroke-width='0' viewBox='0 0 512 512' height='1.3em' width='1.3em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z'%3E%3C/path%3E%3C/svg%3E") 10px no-repeat;
+}
+
+
+.searchBar ::placeholder {
+  color: #5b64ca;
+}
+
+/* Search bar css end here */
+
+
+
+/* Main container css start here */
+
+ .main_vector {
+  background: url('/public/images/Ellipse\ 24.png') no-repeat 250px ;
+  height: 45px;
+  background-size: 26px;
+}
+
+.main_vector::after {
+
+  background: url('/public/images/Ellipse\ 24.png') no-repeat 200px ;
+ 
+}
+.main_container{
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+}
+
+
+.main_container .left {
+  width: 50%;
+}
+
+
+
+
+.main_container .left .claim_quotes{
+  color: #5b64ca;
+  
+  font-size: 22px;
+}
+
+.main_container .left .main_title {
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 78px;
+}
+
+.main_container .left .com_location {
+  color: #5b64ca;
+  font-size: 20px;
+  margin: 16px 0;
+}
+
+.main_container .left .main_title span{
+  text-decoration: underline;
+  text-decoration-color: #ddb503 ;
+
+}
+
+.main_container .left .main_description{
+  font-weight: 800;
+  font-size: 24px;
+  margin: 18px 0;
+  padding: 10px 0;
+  color: #838383;
+  
+}
+
+.main_container .right {
+  width: 50%;
+}
+
+.main_container .right img {
+  width: 100%;
+}
+
+.main_container .left  .company_action_btn{
+  display: flex;
+} 
+
+
+
+.main_container .left .company_action_btn .create_company {
+  background-color: #5b64ca;
+  outline: none;
+  border: none;
+  padding: 12px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.main_container .left .company_action_btn .renew_company {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px #5b64ca solid;
+  padding: 12px;
+  font-size: 20px;
+  color: #5b64ca;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+
+
+
+
