@@ -124,10 +124,9 @@ body{
   background-size: 26px;
 }
 
-.main_vector::after {
-
-  background: url('/public/images/Ellipse\ 24.png') no-repeat 200px ;
+.main_vector:after {
  
+  background:red url("http://www.gentleface.com/i/free_toolbar_icons_16x16_black.png") no-repeat -30px -50px fixed;
 }
 .main_container{
   font-family: 'Noto Sans', sans-serif;
@@ -149,15 +148,15 @@ body{
 }
 
 .main_container .left .main_title {
-  font-size: 66px;
+  font-size: 55px;
   font-weight: 900;
-  line-height: 78px;
+  line-height: 65px;
 }
 
 .main_container .left .com_location {
   color: #5b64ca;
   font-size: 20px;
-  margin: 16px 0;
+  margin: 10px 0;
 }
 
 .main_container .left .main_title span{
@@ -168,8 +167,8 @@ body{
 
 .main_container .left .main_description{
   font-weight: 800;
-  font-size: 24px;
-  margin: 18px 0;
+  font-size: 22px;
+  margin: 14px 0;
   padding: 10px 0;
   color: #838383;
   
@@ -211,8 +210,320 @@ body{
   font-weight: 600;
 }
 
+.watch_video{
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px ;
+  font-size: 20px;
+  color: #5b64ca;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+
+}
+
+.watch_video img {
+  border: 2px #5b64ca solid ;
+  border-radius: 100%;
+  margin: 0 0 0 10px;
+  padding: 4px;
+  
+
+ 
+}
+
+
+ .mission {
+  font-family: 'Noto Sans', sans-serif;
+    background: url('/public/images/Group_100.png') no-repeat -200px  ;
+    height: 320px;
+    background-size: 320px;
+    margin-bottom: 20px;
+}
+
+ .mission_title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 800;
+  background: url('/public/images/Ellipse_11.png') no-repeat 30%;
+  background-size: 70px;
+  
+}
+  
+.mission .mission_title span{
+  text-decoration: underline;
+  text-decoration-color: #ddb503 ;
+  text-decoration-thickness: 5px;
+
+}
+
+.mission .mission_description {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 30px;
+  margin: 40px 25%;
+  color: #838383;
+}
+
+.service_main {
+  display: flex;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.service_main .section {
+  padding-right: 20px;
+}
+
+.service_main .section img{
+  width: 55px;
+}
+
+
+.service_main .section .section_title{
+  font-size: 22px;
+  margin: 12px 0;
+  font-weight: 700;
+}
+
+.service_main .section .service_description {
+  color: #838383;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.service_main .section .get_started{
+  margin: 14px 0;
+  font-size: 18px;
+  color: #ddb503;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: 50%  50%;
+
+  row-gap: 100px;
+  
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  
+}
+
+.process-vector2 {
+  background: url('/public/images/Ellipse\ 16.png') no-repeat 15% 100px;
+  background-size: 14px;
+  height: 15px;
+  background-position: 15% 0;
+}
+
+ .process-vector {
+  height: 45px;
+  background: url('/public/images/Ellipse_7.png') no-repeat 65%;
+  background-size: 45px;
+  margin-bottom: 5px;
+  
+}
+
+
+.process .process-section-1 {
+  font-size: 20px;
+  font-weight: 500;
+  /* margin: 0 75px; */
+}
+
+ .process-claim {
+  margin: 10px 0;
+  color: #5b64ca;
+  font-size: 20px;
+    font-weight: 500;
+}
+
+ .free-quotes{
+  margin: 0 70px;
+  width: 60%;
+  font-size: 20px;
+    font-weight: 500;
+}
+
+.process .process-section-2 {
+  border: 1px solid #535151;
+  border-radius: 5px;
+  margin: 0 75px;
+  padding: 10px;
+  width: 55%;
+  margin-top: 50px;
+  height: fit-content;
+}
+
+.process .process-section-2 img {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding: 10px;
+}
+
+.vector-12 {
+  height: 50px;
+  background: url('/public/images/Ellipse\ 12.png') 50% no-repeat;
+  margin-top: 20px;
+}
+
+.vector-27 {
+  height: 35px;
+  background: url('/public/images/Ellipse\ 27.png') 60% no-repeat;
+  margin-top: 20px;
+  background-size: 35px;
+}
+
+.vector-24 {
+  height: 35px;
+  background: url('/public/images/Ellipse\ 14.png')  no-repeat;
+  margin-top: 20px;
+  background-size: 20px;
+}
+
+.process .process-section-2 .process-selection-2-title {
+  margin: 10px 30px;
+  
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.process .process-section-2 .process-selection-2-description {
+
+  margin: 15px 30px;
+  color: #838383;
+}
+
+.process .process-section-2 .learnmore {
+  margin: 0 30px;
+  color: #5b64ca;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.price_container {
+  background: url('/public/images/Ellipse_7.png') no-repeat 12% ;
+  height: 100px;
+  background-size: 100px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+.vector-price {
+  background: url('/public/images/Ellipse\ 12.png') no-repeat 90%  ;
+  height: 30px;
+  background-size: 30px;
+  margin-top: 50px;
+}
+
+
+.price_container .pricing-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 30%;
+
+}
+
+.price_container .pricing-title span {
+  text-decoration: underline;
+  text-decoration-color: #ddb503 ;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 9px;
+}
+
+.price_container .vector-price2 {
+  background: url('/public/images/Ellipse\ 13.png') no-repeat 100%;
+  height: 70px;
+  margin: 20px 0;
+}
 
 
 
+/* Price card css start here */
+
+.priceCard {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.priceCard .card-1{
+  margin-top: 10px;
+ max-width: 33%;
+ color: #5b64ca;
+}
+
+.priceCard .card-1 .price-companyName {
+  font-size: 18px;
+  font-weight: 900;
+  
+}
+
+.priceCard .card-1 .price-highlitedprice {
+  padding: 10px 0;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  color: #838383;
+  
+}
+
+.priceCard .card-1 .price-highlitedprice .middlespan {
+  color: #ffffff;
+}
 
 
+.priceCard .card-1 .price-highlitedprice span {
+  font-weight: 900;
+  font-size: 30px;
+  margin-right: 10px;
+  color: #5b64ca;
+ 
+}
+
+.priceCard .card-1 .com_includes{
+ 
+  margin: 0 138px 0 0px;
+}
+
+.priceCard .card-1 .inclueslist ul {
+  padding-inline-start: 0px;
+}
+
+.featurelist {
+  list-style: none;
+ 
+  display: flex;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.featurelist img {
+  margin:  0 10px 0 0;
+}
+
+.priceCard .card-1  button {
+  border:#5b64ca solid 2px;
+  background: #ffffff;
+  padding: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: 80%;
+  font-size: 24px;
+  color: #5b64ca;
+  border-radius: 3px;
+}
+
+.priceCard  .middle {
+  background-color: #5b64ca;
+  color: #ffffff !important;
+  border-radius: 5px;
+}

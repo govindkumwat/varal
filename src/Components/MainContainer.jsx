@@ -21,6 +21,20 @@ export const MainContainer = () => {
         </div>
     </div>
 
+
+    <div className="watch_video">
+      <div>Watch the video about UAE or Offshore Company Registration</div>
+      <img src="/images/group_117.png" alt="" />
+    </div>
+
+    <div className="mission"> 
+     <div className='mission_title'><span>Dedicated</span> <br /> to our misson we are</div>
+     <div className='mission_description'>
+      Our service include company formation & renewals, Trust & fiduciary, Tax Residency setup ith family, Bank accounts, Remote Management, Stock tranding platforms, Ownership solutions.
+     </div>
+    </div>
+
+   
     
     </>
   )
