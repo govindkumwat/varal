@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <div className='menu_container'>
     <div className="logo">
-        Logo
+        <img src="/images/Group_114.png" alt="" />
     </div>
 
     <div className="hamburger">

@@ -338,6 +338,9 @@ body {
 }
 
 
+
+
+
 .process .process-section-1 {
   font-size: 20px;
   font-weight: 500;
@@ -826,6 +829,8 @@ body {
 }
 
 
+
+
 /* Footer started from here */
 
 .footer-vector {
@@ -853,10 +858,54 @@ body {
   .main_container .left .illustration img {
     display: none;
   }
+  .priceCard .card-1 {
+    margin-top: 10px;
+ 
+    color: #535edf;
+  }
+
+  .mobileslider {
+  display: none !important;
+}
 }
 
 
 @media only screen and (max-width: 600px) {
+
+   .desktop {
+    display: none;
+  }
+
+
+  .slider1 {
+    max-width: 100% !important;
+  }
+  .slider3 {
+    max-width: 100% !important;
+  }
+
+  .aboutus_container .right .right-heading {
+    display: none;
+  }
+
+  .aboutus_container .left .testimonials .testimonials_list {
+    margin-top: 24px;
+    margin: 40px 105px 0 0;
+    font-size: 20px;
+}
+
+  .aboutus_container .left .mobile {
+    display: none !important;
+  }
+
+  .aboutus_container .left .testimonials_heading {
+    font-size: 21px;
+    font-weight: 900;
+    margin: 0 130px 0 0;
+    border-left: 8px solid #535edf;
+    padding: 0 0 0 40px;
+    height: 80px;
+}
 
   .hamburger {
     display: flex;
@@ -924,6 +973,10 @@ body {
     font-weight: 800;
   }
 
+  .mobile {
+    width: 100%;
+  }
+
 
   .mission .mission_description {
     margin: 10px 10px 0 0;
@@ -937,6 +990,23 @@ body {
     display: block;
     text-align: center;
   }
+
+
+
+  .priceCard .middle {
+    background-color: #535edf;
+    color: #ffffff !important;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 71%;
+    /* margin-top: -30px; */
+}
+
+.priceCard .card-1 {
+  margin-top: 10px;
+  max-width: '' !important;
+  color: #535edf;
+}
 
 
   .section {
@@ -968,6 +1038,7 @@ body {
     margin: 14px 0
   }
 
+  
   .free-quotes {
     margin: 0;
     width: 85%;
@@ -1080,7 +1151,10 @@ body {
     font-weight: 500;
   }
 
-  .priceCard {
+  .aboutus-vector .vecto-3 {
+    display: none;
+  }
+  .mobileslider {
     display: block !important;
     /* justify-content: space-around; */
     /* margin: 0 30px; */
