@@ -9,6 +9,9 @@ export const MainContainer = () => {
         <div className="left">
             <div className='claim_quotes'>Claim a Free Quote</div>
             <div className='main_title'><span>Get started</span> on fulfiling <br />  your Dubai or UAE dream.</div>
+            <div className='illustration'>
+           <img src="/images/ILLUSTRATION.png" alt="" />
+        </div>
             <div className='com_location'>UAE and Offshore company</div>
             <div className='main_description'>We provide you with information about UAE and offshore company registration and help you setup your company with a bank accounts and visas.</div>
             <div className="company_action_btn" >
@@ -24,7 +27,7 @@ export const MainContainer = () => {
 
     <div className="watch_video">
       <div>Watch the video about UAE or Offshore Company Registration</div>
-      <img src="/images/group_117.png" alt="" />
+      <img src="/images/Group_117.png" alt="" />
     </div>
 
     <div className="mission"> 

@@ -11,13 +11,13 @@ export const Services = () => {
                     <div className='get_started'>Get Started</div>
                 </div>
                 <div className="section">
-                    <img src="/images/vector-2.png" alt="" />
+                    <img src="/images/Vector-2.png" alt="" />
                     <div className='section_title'>Dubai Local Companies</div>
                     <div className='service_description'>The Dubai LLC formation documents are actually articles of organization or a certificate of organization. You can get yours today.</div>
                     <div className='get_started'>Get Started</div>
                 </div>
                 <div className="section">
-                    <img src="/images/vector-1.png" alt="" />
+                    <img src="/images/Vector-1.png" alt="" />
                     <div className='section_title'>Offshore Companies</div>
                     <div className='service_description'>You can register an offshore company and open its bank account in Dubai. Your agent will help you along all the process.</div>
                     <div className='get_started'>Get Started</div>
@@ -85,7 +85,6 @@ export const Services = () => {
                     <div className='process-claim'>More about our services <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd"></path></svg> </div>
                     </div>
                 </div>
-        
             </div>
         </>
     )
